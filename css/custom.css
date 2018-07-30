@@ -3,12 +3,12 @@
  */
 
 /* Links */
+
 a,
 a:focus,
 a:hover {
   color: #ddd;
 }
-
 
 /*
  * Base structure
@@ -34,6 +34,7 @@ body {
 /*
  * Header
  */
+
 .masthead {
   margin-bottom: 2rem;
 }
@@ -55,7 +56,7 @@ body {
   border-bottom-color: rgba(255, 255, 255, .25);
 }
 
-.nav-masthead .nav-link + .nav-link {
+.nav-masthead .nav-link+.nav-link {
   margin-left: 1rem;
 }
 
@@ -73,22 +74,23 @@ body {
   }
 }
 
-
 /*
  * Cover
  */
+
 .cover {
   padding: 0 1.5rem;
 }
+
 .cover .btn-lg {
   padding: .75rem 1.25rem;
   font-weight: 700;
 }
 
-
 /*
  * Footer
  */
+
 .mastfoot {
   color: rgba(255, 255, 255, .5);
 }
@@ -96,7 +98,40 @@ body {
 /*
  * button
  */
- .btn-outline-light {
+
+.btn-outline-light {
   color: #ddd;
   border-color: #ddd;
+}
+
+.btn-light {
+  background-color: #ddd;
+  border-color: #ddd;
+  color: #333;
+}
+
+.form-control {
+  background-color: #ddd
+}
+
+.card-img-top {
+  width: 10rem;
+  height: 10rem;
+}
+
+.card-body {
+  background-color: #333;
+  border-color: #333;
+}
+
+.links-icon {
+  background-color: transparent;
+  height: 20px;
+}
+
+.links-li {
+  float: left;
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+  list-style: none;
 }
