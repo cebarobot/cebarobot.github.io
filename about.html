@@ -21,46 +21,32 @@
     <title>Ceba - Index</title>
 </head>
 
-<body>
+<body class="text-center">
     <div class="container d-flex h-100 p-3 mx-auto flex-column">
         <header class="masthead mb-auto">
             <div class="">
                 <h3 class="masthead-brand">Ceba's website</h3>
                 <nav class="nav nav-masthead justify-content-center">
                     <a class="nav-link" href="index.html">Home</a>
-                    <a class="nav-link" href="about.html">About</a>
+                    <a class="nav-link active" href="#">About</a>
                     <a class="nav-link" href="links.html">Links</a>
-                    <a class="nav-link active" href="#">Mail</a>
+                    <a class="nav-link" href="mail.html">Mail</a>
                 </nav>
             </div>
         </header>
 
-        <main role="main" class="inner cover row">
-            <form class="col-md-6 offset-md-3" name="form1" action="https://exmail.qq.com/cgi-bin/login" method="post">
-                <input type="hidden" name="firstlogin" value="false" />
-                <input type="hidden" name="errtemplate" value="dm_loginpage" />
-                <input type="hidden" name="aliastype" value="other" />
-                <input type="hidden" name="dmtype" value="bizmail" />
-                <input type="hidden" name="p" value="" />
-                <input type="hidden" name="domain" value="ceba.tech" />
-                <div class="form-group">
-                    <label for="inputEmail1">Email address</label>
-                    <div class="input-group mb-3">
-                        <input name="uin" type="text" class="form-control" aria-describedby="basic-addon1" placeholder="Enter username">
-                        <div class="input-group-append">
-                            <span class="input-group-text" id="basic-addon1">@ceba.tech</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="inputPassword1">Password</label>
-                    <input name="pwd" type="password" class="form-control" id="inputPassword1" placeholder="Password">
-                </div>
-                <button type="submit" class="btn btn-secondary mb-3">Log in</button>
-            </form>
+        <main role="main" class="inner cover">
+            <img src="images/avatar.jpg" class="p-2 rounded-circle" width="150" alt="ceba">
+            <h1 class="cover-heading">Ceba</h1>
+            <p>我是 ceba，/‘sɪbɑ:/。
+                <br>读音并不重要，能认得出来是我就好。于是你可以按照你自己的想法去读233。</p>
+            <p>曾经是个志向远大的 OIer，现在只是一个有些迷茫的高三狗。
+                <br>OI 很菜，开发很菜，文化课也很菜。</p>
+            <p>另一个角度，不会打枪也不会写代码的战术程序员。（弥天大雾）</p>
+            <a href="https://blog.ceba.tech/about/" class="btn btn btn-outline-light">Learn more</a>
         </main>
 
-        <footer class="mastfoot mt-auto text-center">
+        <footer class="mastfoot mt-auto">
             <div class="inner">
                 <p>
                     Powered by
